@@ -1,7 +1,7 @@
 # Pretrained BERT Cased model
 
 ## Script
-"BERT_cased_Laura" sur Google Colab:
+"BERT_cased_Laura" sur Google Colab:  
 Avant d'utiliser le script:  
 Importer le dataset "lauraDataset2.csv "dans :/content
 
