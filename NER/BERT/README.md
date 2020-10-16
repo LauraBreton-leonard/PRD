@@ -14,4 +14,5 @@ https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and
 
 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/BERT/learning_curve.png?raw=true)
+
