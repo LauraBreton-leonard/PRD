@@ -9,6 +9,16 @@ Importer le dataset "lauraDataset2.csv "dans :/content
 https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270
 ## Infos Pretrained Bert model cased: 
 https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/
+## Le Dataset
+
+Le dataset provient du dataset ICDAR 
+résultat du préprocessing donne un dataset organisé de la manière suivante:  
+
+-Séparé en "sentence" (equivalent à un reçu)  
+-Labélisé en BIO B: Begining, I: Inside, O: Outside  
+-POS-taggé: Ajout d'un tag de position gramaticale : adjectif, verbe, prépositions...
+
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/BERT/learning_curve.png?raw=true)
 
 ## Résultats
 
