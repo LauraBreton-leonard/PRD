@@ -2,7 +2,7 @@
 
 ## Script
 "BERT_cased_Laura" sur Google Colab:
-Avant d'utiliser le script: 1. -Importer le dataset "lauraDataset2.csv "dans :/content
+Avant d'utiliser le script: *.Importer le dataset "lauraDataset2.csv "dans :/content
 
 ## Infos BERT model:  
 https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270
