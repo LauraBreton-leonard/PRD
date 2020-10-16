@@ -10,3 +10,8 @@ https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-fo
 ## Infos Pretrained Bert model cased: 
 https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/
 
+## Résultats
+
+
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
