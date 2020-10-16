@@ -18,7 +18,7 @@ résultat du préprocessing donne un dataset organisé de la manière suivante:
 -Labélisé en BIO B: Begining, I: Inside, O: Outside  
 -POS-taggé: Ajout d'un tag de position gramaticale : adjectif, verbe, prépositions...
 
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/BERT/dataImg.png?raw=true)
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/BERT/dataImg.PNG?raw=true)
 
 ## Résultats
 
