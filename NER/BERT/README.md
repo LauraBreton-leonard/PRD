@@ -11,12 +11,11 @@ https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-fo
 https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/
 ## Le Dataset
 
-Le dataset provient du dataset ICDAR 
+Le dataset provient du dataset ICDAR   
 résultat du préprocessing donne un dataset organisé de la manière suivante:  
-
 -Séparé en "sentence" (equivalent à un reçu)  
 -Labélisé en BIO B: Begining, I: Inside, O: Outside  
--POS-taggé: Ajout d'un tag de position gramaticale : adjectif, verbe, prépositions...
+-POS-taggé: Ajout d'un tag de position gramaticale : adjectif, verbe, prépositions...  
 
 ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/BERT/IMAGES/dataImg.PNG?raw=true)
 
@@ -36,7 +35,7 @@ résultat du préprocessing donne un dataset organisé de la manière suivante:
 Les résultats obtenus sont inexploitables pour plusieurs raisons:  
 -L'overfit est inévitable compte tenu du dataset redondant: en effet, nous nous sommes rendus compte que le dataset était redondant:beaucoup de tickets des memes magasins avec mêmes totaux et dates
 -Les bons résultats de precision, recall et F1 score proviennent de l'inégalité de la quantité de données pour chaque labels (beaucoup plus de 0)  
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/BERT/IMAGES/prpLabels.png?raw=true)
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/BERT/IMAGES/prpLabels.png?raw=true)  
 -les données d'entrainement sont en vietnamien alors que le model est en anglais, les bons résultats (f1 score) proviennent de l'overfit. Un essai sur un ticket anglais montre rapidement l'inefficacité du modèle.
 
 ### Conclusion
