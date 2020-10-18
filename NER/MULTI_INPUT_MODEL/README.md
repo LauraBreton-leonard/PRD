@@ -3,8 +3,14 @@
 # Script
 
 ## Desciption des données
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/bbox.png" width="100" height="100"/>
-![image](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/bbox.png=250pxx250px)
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/bbox.png" width="250" height="250"/>  
+  
+  
+On remarque bien qu'il y a une correlation entre la position du texte est son label.  
+Une features d'entrée pourra donc être la position du texte.  
+La deuxième feature d'entrée sera le texte en lui-même.  
+Voici un apercu du dataFrame
+
 ## Description du model
 
 ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/schemaModel.png?raw=true)
