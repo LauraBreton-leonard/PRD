@@ -3,7 +3,7 @@
 # Script
 
 ## Desciption des données
-
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/bbox.png" width="100" height="100"/>
 ![image](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/bbox.png=250pxx250px)
 ## Description du model
 
