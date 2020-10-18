@@ -18,7 +18,7 @@ Voici un apercu du dataFrame
 
 ## Description du model
 
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/schemaModel.png?raw=true) ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/modelCouches.png?raw=true)  
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/schemaModel.png?raw=true) ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/modelCouches.PNG?raw=true)  
 
 ## A Faire début de la semaine du 19/10
 
