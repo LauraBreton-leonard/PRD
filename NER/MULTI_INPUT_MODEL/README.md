@@ -3,13 +3,15 @@
 # Script
 
 ## Desciption des données
+Voici un apercu de la répartition du texte sur les tickets de caisse en fonction de leur label(bleu= date, rose= comany...)
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/bbox.png" width="250" height="250"/>  
   
   
 On remarque bien qu'il y a une correlation entre la position du texte est son label.  
 Une features d'entrée pourra donc être la position du texte.  
 La deuxième feature d'entrée sera le texte en lui-même.  
-Voici un apercu du dataFrame
+Voici un apercu du dataFrame  
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/dataFrame.PNG?raw=true)
 
 ## Description du model
 
