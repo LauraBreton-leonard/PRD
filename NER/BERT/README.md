@@ -2,7 +2,7 @@
 
 ## Script
 "BERT_cased_Laura" sur Google Colab:  
-Avant d'utiliser le script:https://colab.research.google.com/drive/1GRgupPihbt34MCFdOeZp51nICD0yYkqv#scrollTo=ku3TiTrgx33s  
+Avant d'utiliser le script:https://colab.research.google.com/drive/1GRgupPihbt34MCFdOeZp51nICD0yYkqv?usp=sharing  
 Importer le dataset "lauraDataset2.csv "dans :/content
 
 ## Infos BERT model:  
