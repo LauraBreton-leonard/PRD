@@ -1,7 +1,8 @@
 # Multi Input Model (en cours de construction)
 
 ## Script  
-  
+
+importer le fichier "allData.hf" dans ':/content' dans google Colab
 https://colab.research.google.com/drive/1WFEVNXoMhwNHlvrnhAK5EksVALUuH4bX#scrollTo=1WIgHrBHqVYB  
 
 ## Desciption des données
@@ -18,6 +19,15 @@ Voici un apercu du dataFrame
 ## Description du model
 
 ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/schemaModel.png?raw=true)  
+
+## A Faire début de la semaine du 19/10
+
+entrainer le modèle sur au mois 25 epoch (au moins 4-5h)
+changer le parametre embedding dim ( passer de 16 à 128) 
+etudier l'influence nb epoch et np embedding dim
+
+Essayer avec les nouveaux dataset
+
 
 ## Améliorations possibles
 1) Intégrer une instance d'un model Bert sur la branche NLP ou au moins la couche d'embedding de BERT pré-entrainé ou autre embedding pré entrainé
