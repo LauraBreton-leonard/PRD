@@ -5,7 +5,7 @@
 https://colab.research.google.com/drive/1WFEVNXoMhwNHlvrnhAK5EksVALUuH4bX#scrollTo=1WIgHrBHqVYB  
 
 ## Desciption des données
-Voici un apercu de la répartition du texte sur les tickets de caisse en fonction de leur label (bleu= date, rose= company, jaune= total, blanc= adresse...)
+Voici un apercu de la répartition du texte sur les tickets de caisse en fonction de leur label (bleu= date, rose= company, jaune= total, blanc= adresse...)  
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/bbox.png" width="250" height="250"/>  
   
   
