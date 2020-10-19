@@ -26,9 +26,11 @@ Voici un apercu du dataFrame
 entrainer le modèle sur au mois 25 epoch (au moins 4-5h)
 changer le parametre embedding dim ( passer de 16 à 128) 
 etudier l'influence nb epoch et np embedding dim
+-SMOTE
 
 Essayer avec les nouveaux dataset
 
 
 ## Améliorations possibles
-1) Intégrer une instance d'un model Bert sur la branche NLP ou au moins la couche d'embedding de BERT pré-entrainé ou autre embedding pré entrainé
+1) Intégrer une instance d'un model Bert sur la branche NLP ou au moins la couche d'embedding de BERT pré-entrainé ou autre embedding pré entrainé  
+2) Essayer SMOTE ou cost sensitive learning pour imbalanced multiclass classification problem
