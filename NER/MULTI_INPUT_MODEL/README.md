@@ -17,20 +17,33 @@ La deuxième feature d'entrée sera le texte en lui-même.
 Voici un apercu du dataFrame  
 ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/dataFrame.PNG?raw=true)
 
-## Description du model
+## Description des models
+1) TFIDF +Logistic Regression  
+- vectorization TFIDF avec keras puis Naive Bayes multinomial regression avec scikit-learn
+
+2) Embedding layer +Bidirectional LSTM
+
+3) Embedding layer + CNN
+
+4) Multi Input model avec 2)+ coordonees de position du texte
+
+5) multi-input model avec 3)+ coordonees de position du texte
+
+6) les modèles précédents avec une "pretrained embedding layer" (pas encore fait) 
 
 ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/schemaModel.png?raw=true)  ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/modelCouches.PNG?raw=true)  
 
-## A Faire début de la semaine du 19/10
 
-entrainer le modèle sur au mois 25 epoch (au moins 4-5h)
-changer le parametre embedding dim ( passer de 16 à 128) 
-etudier l'influence nb epoch et np embedding dim
--SMOTE
+## Conclusion et Problèmes rencontrés
 
-Essayer avec les nouveaux dataset
+Plusieurs models fonctionnels qui semblent donner de bons résultats (85% accuracy apres 2 epochs pour certains) sur le dataset "AG news classification dataset" (classement de titres d'articles selon quatre domaines : sport, business, world....)
+Problème: Pas de dataset correct pour tester les modèles sur notre type de donnés, à savoir les tickets de caisse.
+-On ne peut pas tester
+-on ne peut pas faire varier les parametres de nos modèles  qui sont liés au dataset utilisé pour l'entrainement final
+-Il faudrait tester l'influence des pretrained embedding layers. Cette influence est étroitement liée au dataset: taille du dataset, type de language utilisé...
 
 
 ## Améliorations possibles
-1) Intégrer une instance d'un model Bert sur la branche NLP ou au moins la couche d'embedding de BERT pré-entrainé ou autre embedding pré entrainé  
+1) Intégrer une instance d'un model Bert sur la branche NLP ou au moins la couche d'embedding de BERT pré-entrainé ou autre embedding pré entrainé   
+
 2) Essayer SMOTE ou cost sensitive learning pour imbalanced multiclass classification problem
