@@ -1,4 +1,4 @@
-# Multi Input Model (en cours de construction)
+# Modèles simples et Multi Input Modèles (en cours de construction)
 
 ## Script  
 
@@ -12,6 +12,8 @@ Voici un apercu de la répartition du texte sur les tickets de caisse en fonctio
   
   
 On remarque bien qu'il y a une correlation entre la position du texte est son label.  
+D'ou la possiblienécéssité d'unmodel multi-Input (modèles 4 et 5)  
+
 Une features d'entrée pourra donc être la position du texte.  
 La deuxième feature d'entrée sera le texte en lui-même.  
 Voici un apercu du dataFrame  
