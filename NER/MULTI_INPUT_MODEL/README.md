@@ -33,20 +33,18 @@ Voici un apercu du dataFrame
 
 modèle2:  
 
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model2.png?raw=true)  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model2.png" width="250" height="250"/>   
 
 modèle3:  
 
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3.png?raw=true)  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3.png" width="250" height="250"/>     
 
 modèle4:  
 
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4.png?raw=true)
-
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4.png" width="250" height="250"/>   
 modèle5:  
 
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5.png?raw=true)
-
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5.png" width="250" height="250"/>   
 
 
 ## Conclusion et Problèmes rencontrés
