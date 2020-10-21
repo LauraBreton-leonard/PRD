@@ -31,7 +31,22 @@ Voici un apercu du dataFrame
 
 6) les modèles précédents avec une "pretrained embedding layer" (pas encore fait) 
 
-![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/schemaModel.png?raw=true)  ![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/modelCouches.PNG?raw=true)  
+modèle2:  
+
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model2.png?raw=true)  
+
+modèle3:  
+
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3.png?raw=true)  
+
+modèle4:  
+
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4.png?raw=true)
+
+modèle5:  
+
+![alt text](https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5.png?raw=true)
+
 
 
 ## Conclusion et Problèmes rencontrés
