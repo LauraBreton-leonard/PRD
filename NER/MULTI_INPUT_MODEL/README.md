@@ -51,11 +51,13 @@ modèle5:
 
 ## Conclusion et Problèmes rencontrés
 
-Plusieurs models fonctionnels qui semblent donner de bons résultats (85% accuracy apres 2 epochs pour certains) sur le dataset "AG news classification dataset" (classement de titres d'articles selon quatre domaines : sport, business, world....)
-Problème: Pas de dataset correct pour tester les modèles sur notre type de donnés, à savoir les tickets de caisse.
--On ne peut pas tester
--on ne peut pas faire varier les parametres de nos modèles  qui sont liés au dataset utilisé pour l'entrainement final
--Il faudrait tester l'influence des pretrained embedding layers. Cette influence est étroitement liée au dataset: taille du dataset, type de language utilisé...
+Plusieurs models fonctionnels qui semblent donner de bons résultats (85% accuracy apres 2 epochs pour certains) sur le dataset "AG news classification dataset" (classement de titres d'articles selon quatre domaines : sport, business, world....)  
+
+Problème: Pas de dataset correct pour tester les modèles sur notre type de donnés, à savoir les tickets de caisse.  
+
+-On ne peut pas tester  
+-on ne peut pas faire varier les parametres de nos modèles  qui sont liés au dataset utilisé pour l'entrainement final  
+-Il faudrait tester l'influence des pretrained embedding layers. Cette influence est étroitement liée au dataset: taille du dataset, type de language utilisé...  
 
 
 ## Améliorations possibles
