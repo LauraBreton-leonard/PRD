@@ -50,7 +50,25 @@ modèle5:
 
 ## Résultats
 ### Modèle 2  
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_2_10ep_resultats.PNG"/>  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_2_10ep_resultats.PNG"/> 
+
+On retrouve de bons resultats globalement surtout pour les classes 2 et 3 ('company' et 'adresse' respectivement.)  
+
+Les resultats sont moins satisfaisant sur les classes 1 et 4 (respectivement 'total' et 'date'):  
+
+L'erreur principale commise est l'attribution du label 0 ('pas d'intéret') à la place de 'date ou'total'. 
+2 raisons:  
+1) les classes sont "unbalenced": C'est à dire qu'il y a beaucoup plus (énormément) de phrases labélisées 0 dans le dataset. Le modèle attribue donc 0 dans la majorité des cas étant donné qu'il est presque sur d'augmenter son accuracy en faisant cela. La représentation de 'date' et 'total' n'étant pas claire pour le modèle, on tombe facilement dans cette erreur lorsqu'il s'agit de ces deux labels.  
+
+2) La définition de 'date et'total' n'est pas claire: Dans le dataset, le total apparait plusieurs fois ainsi que des sous-totaux. Seulement les totaux principaux sont etiquetés. Le modèle a donc du mal à se représenter ce quest un total.  
+C'est la même idée pour les dates: plusieurs dates sont présentes dans les recus, mais seulement la date d'emission est etiquetée( par ex).  
+Les deux problèmes sont donc liès
+Solutions proposées:  
+Problème 1: SMOTE pour equilibrer le nombre de données par classe  
+Problème2: Etiqueter les dataset plus précisément: total TVA, sous total, total après remise etc... + faire passer le dataset en mode chevauchement (voir methode mathieu), pour pouvoir voir les mots avant et après.  
+
+On s'attend à régler le problème du total grâce au modèle 4 (inclue les données de position) puisque les totaux sont situés dans une zone bien précise des tickets comme on peut le voir ici. Les dates ne présentent pas la même particularité. Cependant, les dates sont facilement extractable grâce à du simple Regex(Regular expression. Ce résultat n'est donc pas trop inquétant.
+
 
 ### Modèle 3    
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_3_10ep_resultats.PNG"/>  
