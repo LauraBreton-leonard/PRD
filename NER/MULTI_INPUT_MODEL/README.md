@@ -85,7 +85,7 @@ Les raisons peuvent être nombreuses. La principale étant que ce modèle était
 
 ### Modèle 4  
   
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_4_10ep_resultats.PNG"/>
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4_10ep_resultats.PNG"/>
 
 ### Modèle 5  
   
