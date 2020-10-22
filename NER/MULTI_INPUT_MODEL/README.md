@@ -2,7 +2,7 @@
 
 ## Script  
 
-importer le fichier "allData.hf" dans ':/content' dans google Colab
+importer le fichier "malaisianReceipts.hf" dans ':/content' dans google Colab
 
 https://colab.research.google.com/drive/17bLMi7Qo4vloJxfuRFhKVNfDH08BXwwT?usp=sharing
 
@@ -48,6 +48,8 @@ modèle5:
 
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5.png" width="250" height="250"/>   
 
+## Résultats
+
 
 ## Conclusion et Problèmes rencontrés
 
@@ -56,7 +58,7 @@ Plusieurs models fonctionnels qui semblent donner de bons résultats (85% accura
 Problème: Pas de dataset correct pour tester les modèles sur notre type de donnés, à savoir les tickets de caisse.  
 
 -On ne peut pas tester  
--on ne peut pas faire varier les parametres de nos modèles  qui sont liés au dataset utilisé pour l'entrainement final  
+-on ne peut pas faire varier les parametres de nos modèles  qui sont liés au dataset utilisé pour l'entrainement final (nb couches, dimensions, fonctions d'activation...) 
 -Il faudrait tester l'influence des pretrained embedding layers. Cette influence est étroitement liée au dataset: taille du dataset, type de language utilisé...  
 
 
