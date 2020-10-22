@@ -104,6 +104,8 @@ Très mauvais résultats en comparaison avec le modèle 2 ou 3.
 
 ### Modèle 5  
   
+  Modèle 5( Bis)
+  
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_5_10ep_resultats.PNG"/>  
 
 ## Conclusion et Problèmes rencontrés
