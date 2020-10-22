@@ -25,7 +25,7 @@ Voici un apercu du dataFrame
 
 2) Embedding layer +Bidirectional LSTM
 
-3) Embedding layer + CNN
+3) Embedding layer + CNN + LSTM
 
 4) Multi Input model avec 2)+ coordonees de position du texte
 
