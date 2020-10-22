@@ -39,14 +39,14 @@ modèle2:
 
 modèle3:    
 
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3.png" width="250" height="250"/>     
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3(1).png" width="250" height="250"/>     
   
 modèle4:  
 
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4.png" width="250" height="250"/>   
 modèle5:  
 
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5.png" width="250" height="250"/>   
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5(1).png" width="250" height="250"/>   
 
 ## Résultats
 ### Modèle 2  
