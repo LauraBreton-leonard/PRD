@@ -49,7 +49,11 @@ modèle5:
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5.png" width="250" height="250"/>   
 
 ## Résultats
-
+### Modèle 2  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5.png" width="250" height="250"/> 
+### Modèle 3  
+### Modèle 4  
+### Modèle 5  
 
 ## Conclusion et Problèmes rencontrés
 
