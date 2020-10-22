@@ -84,9 +84,12 @@ Très mauvais résultats en comparaison avec le modèle 2:
 Les raisons peuvent être nombreuses. La principale étant que ce modèle était un test et je ne suis pas sure de son architecture. Nous allons vite abandonner ce modèle afin de le remplacer par un simple modèle embedding layer+CNN.
 
 ### Modèle 4  
+  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_4_10ep_resultats.PNG"/>
 
 ### Modèle 5  
-
+  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_5_10ep_resultats.PNG"/>  
 
 ## Conclusion et Problèmes rencontrés
 
