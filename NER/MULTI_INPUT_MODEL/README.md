@@ -48,7 +48,9 @@ modèle5:
 
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model5(1).png" width="250" height="250"/>   
 
-## Résultats
+## Résultats  
+-10 epochs  
+-batch-size=64
 ### Modèle 2  
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_2_10ep_resultats.PNG"/> 
 
