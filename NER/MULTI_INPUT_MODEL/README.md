@@ -39,8 +39,14 @@ modèle2:
 
 modèle3:    
 
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3(1).png" width="250" height="250"/>     
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3.png" width="250" height="250"/>   
+modèle 3 (bis): Embedding+ Conv1D+LSTM  
   
+  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3(1).png" width="250" height="250"/>   
+
+
+ 
 modèle4:  
 
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4.png" width="250" height="250"/>   
@@ -78,10 +84,19 @@ On s'attend à régler le problème du total grâce au modèle 4 (inclue les don
 
 
 ### Modèle 3    
+
+Modèle 3: Embedding layer+Conv1D+Maxpooling  
+
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_3_conv_10_ep_resultats.PNG "/> 
+   
+Bons résultats 
+
+Modèle 3 bis: Embedding layer+Conv1D+LSTM
+
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_3_10ep_resultats.PNG"/>   
   
-Très mauvais résultats en comparaison avec le modèle 2:  
-Les raisons peuvent être nombreuses. La principale étant que ce modèle était un test et je ne suis pas sure de son architecture. Nous allons vite abandonner ce modèle afin de le remplacer par un simple modèle embedding layer+CNN.
+Très mauvais résultats en comparaison avec le modèle 2 ou 3.
+
 
 ### Modèle 4  
   
