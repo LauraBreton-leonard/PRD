@@ -50,11 +50,15 @@ modèle5:
 
 ## Résultats
 ### Modèle 2  
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_2_10ep_resultats.PNG"/> 
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_2_10ep_resultats.PNG"/>  
+
 ### Modèle 3    
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_3_10ep_resultats.PNG"/> 
-### Modèle 4    
-### Modèle 5    
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_3_10ep_resultats.PNG"/>  
+
+### Modèle 4  
+
+### Modèle 5  
+
 
 ## Conclusion et Problèmes rencontrés
 
