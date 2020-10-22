@@ -41,9 +41,6 @@ modèle3:
 
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3.png" width="250" height="250"/>     
   
-Très mauvais résultats en comparaison avec le modèle 2:  
-Les raisons peuvent être nombreuses. La principale étant que ce modèle était un test et je ne suis pas sure de son architecture. Nous allons vite abandonner ce modèle afin de le remplacer par un simple modèle embedding layer+CNN.
-
 modèle4:  
 
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4.png" width="250" height="250"/>   
@@ -79,7 +76,10 @@ On s'attend à régler le problème du total grâce au modèle 4 (inclue les don
 
 
 ### Modèle 3    
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_3_10ep_resultats.PNG"/>  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_3_10ep_resultats.PNG"/>   
+  
+Très mauvais résultats en comparaison avec le modèle 2:  
+Les raisons peuvent être nombreuses. La principale étant que ce modèle était un test et je ne suis pas sure de son architecture. Nous allons vite abandonner ce modèle afin de le remplacer par un simple modèle embedding layer+CNN.
 
 ### Modèle 4  
 
