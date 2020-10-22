@@ -33,11 +33,11 @@ Voici un apercu du dataFrame
 
 6) les modèles précédents avec une "pretrained embedding layer" (pas encore fait) 
 
-modèle2:  
+modèle2:    
 
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model2.png" width="250" height="250"/>   
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model2.png" width="250" height="250"/>  
 
-modèle3:  
+modèle3:    
 
 <img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model3.png" width="250" height="250"/>     
 
