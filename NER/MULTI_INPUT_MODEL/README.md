@@ -60,7 +60,7 @@ Les resultats sont moins satisfaisant sur les classes 1 et 4 (respectivement 'to
 
 L'erreur principale commise est l'attribution du label 0 ('pas d'intéret') à la place de 'date ou'total'. 
 2 raisons:  
-1) les classes sont "unbalenced": C'est à dire qu'il y a beaucoup plus (énormément) de phrases labélisées 0 dans le dataset. Le modèle attribue donc 0 dans la majorité des cas étant donné qu'il est presque sur d'augmenter son accuracy en faisant cela. La représentation de 'date' et 'total' n'étant pas claire pour le modèle, on tombe facilement dans cette erreur lorsqu'il s'agit de ces deux labels.  
+1) les classes sont "imbalenced": C'est à dire qu'il y a beaucoup plus (énormément) de phrases labélisées 0 dans le dataset. Le modèle attribue donc 0 dans la majorité des cas étant donné qu'il est presque sur d'augmenter son accuracy en faisant cela. La représentation de 'date' et 'total' n'étant pas claire pour le modèle, on tombe facilement dans cette erreur lorsqu'il s'agit de ces deux labels.  
 
 2) La définition de 'date et'total' n'est pas claire: Dans le dataset, le total apparait plusieurs fois ainsi que des sous-totaux. Seulement les totaux principaux sont etiquetés. Le modèle a donc du mal à se représenter ce qu'est un total.  
 C'est la même idée pour les dates: plusieurs dates sont présentes dans les recus, mais seulement la date d'emission est etiquetée( par ex). 
