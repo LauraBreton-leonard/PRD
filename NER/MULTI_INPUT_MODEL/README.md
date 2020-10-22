@@ -100,9 +100,15 @@ Très mauvais résultats en comparaison avec le modèle 2 ou 3.
 
 ### Modèle 4  
   
-<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4_10ep_resultats.PNG"/>
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model4_10ep_resultats.PNG"/>  
+La deuxième entrée de features (coordonée geographiques) semblent perturber la labelisation des totaux alors que c'est celle qui devrait être corrigé logiquement... étonnant
 
 ### Modèle 5  
+  Modèle: modèle 3 conv + coordonees geo  
+  
+<img src="https://github.com/LauraBreton-leonard/PRD/blob/main/NER/MULTI_INPUT_MODEL/IMAGES/model_5_conv_10ep_resultats.PNG"/>  
+  
+  idem que pour 4  
   
   Modèle 5( Bis)
   
