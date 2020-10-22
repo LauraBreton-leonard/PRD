@@ -60,10 +60,15 @@ L'erreur principale commise est l'attribution du label 0 ('pas d'intéret') à l
 2 raisons:  
 1) les classes sont "unbalenced": C'est à dire qu'il y a beaucoup plus (énormément) de phrases labélisées 0 dans le dataset. Le modèle attribue donc 0 dans la majorité des cas étant donné qu'il est presque sur d'augmenter son accuracy en faisant cela. La représentation de 'date' et 'total' n'étant pas claire pour le modèle, on tombe facilement dans cette erreur lorsqu'il s'agit de ces deux labels.  
 
-2) La définition de 'date et'total' n'est pas claire: Dans le dataset, le total apparait plusieurs fois ainsi que des sous-totaux. Seulement les totaux principaux sont etiquetés. Le modèle a donc du mal à se représenter ce quest un total.  
-C'est la même idée pour les dates: plusieurs dates sont présentes dans les recus, mais seulement la date d'emission est etiquetée( par ex).  
-Les deux problèmes sont donc liès
+2) La définition de 'date et'total' n'est pas claire: Dans le dataset, le total apparait plusieurs fois ainsi que des sous-totaux. Seulement les totaux principaux sont etiquetés. Le modèle a donc du mal à se représenter ce qu'est un total.  
+C'est la même idée pour les dates: plusieurs dates sont présentes dans les recus, mais seulement la date d'emission est etiquetée( par ex). 
+  
+  
+Les deux problèmes sont donc liés  
+  
+  
 Solutions proposées:  
+
 Problème 1: SMOTE pour equilibrer le nombre de données par classe  
 Problème2: Etiqueter les dataset plus précisément: total TVA, sous total, total après remise etc... + faire passer le dataset en mode chevauchement (voir methode mathieu), pour pouvoir voir les mots avant et après.  
 
